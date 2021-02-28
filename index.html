@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="index.js" defer></script>
+    <title>Dice Roller</title>
+</head>
+<body>
+    <h1>Dice Roller</h1>
+
+    <section >
+        <label>Number of Dice:</label> 
+        <input id="number-of-dice" type="number" min=1 required>
+        <br>
+        <button id="roll-dice-btn" type="submit">Roll the dice!</button>
+    </section>
+
+    <section id="sum">
+        <p id="show-rolls">Display Dice here</p>
+        <p>Sum: </p>
+    </section>
+
+    <section id="history">
+        <ul id="list"></ul>
+    </section>
+    
+</body>
+</html>
